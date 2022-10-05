@@ -1,0 +1,51 @@
+*{ 
+    margin: 0
+}
+h2 {
+    color: black;
+    position: center;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+    text-align: center;
+    
+}
+.inicio .meio .fim {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+.inicio {
+    width: 10pxpx;
+    height: 100px;
+}
+.logo img{
+    width: 60px;
+   
+    
+
+}
+
+.meio {
+    background-color: rgb(67, 61, 61);
+    color: white;
+    padding: 50px;
+}
+footer {
+    background-color: red;
+    height: 100px;
+    color: white;
+    padding: 10px;
+}
+form {
+    color: black;
+}
+
+button {
+    background-color: red;
+    
+}
+
