@@ -1,0 +1,22 @@
+.content > div{
+    
+    background-color: rgba(191, 187, 187, 0.786);
+    height: 500px;
+    width: 500px;
+    display:inline-block;
+    margin: 50px 100px;
+}
+
+aside > div{
+    background-color: rgba(191, 187, 187, 0.786);
+    height: 190px;
+    width: 190px;
+    margin:20px;
+    float:right;
+    position: relative;
+   
+   
+   
+
+}
+
