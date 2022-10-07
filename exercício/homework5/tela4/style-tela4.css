@@ -1,0 +1,64 @@
+.container{
+    display: grid;
+    grid-template-areas: "imagem-1 imagem-2" "imagem-1 imagem-3" ;
+    grid-template-columns: 350px 350px;
+    gap: 20px;
+    grid-template-rows: 200px 200px;
+    margin-top: 40px;
+    justify-content: center;
+
+}
+
+.imagem-1 {
+    display: grid;
+    grid-area: imagem-1;
+    background-color: #C4C4C4;
+    /* margin: 40px 20px 0px 40px; */
+    box-sizing: border-box;
+    height: 100%;
+    
+}
+.imagem-2 {
+    display: grid;
+    grid-area: imagem-2;
+    /* margin: 40px 20px 0px 40px; */
+    background-color: #C4C4C4;
+    
+}
+
+.imagem-3 {
+    display: grid;
+    grid-area: imagem-3;
+    /* margin: 40px 20px 0px 40px; */
+    background-color:#C4C4C4;
+}
+
+
+.imagem-1 > div {
+    background-color: #C4C4C4;
+    /* width: 350px; */
+    height: 385px;
+    
+}
+.imagem-1 > span {
+    /* padding: 8px; */
+    /* width: 350px; */
+    padding: 8px;
+    /* height: 40px; */
+    background-color:#2C2C2C ;
+    color: white;
+}
+
+
+.imagem-2 > div, .imagem-3 > div{
+    background-color:#C4C4C4;
+    /* height: 200px; */
+}
+
+.imagem-2 > span, .imagem-3> span{   
+    padding: 8px;
+    align-self: flex-end;
+    height: 40px;
+    background-color:#2C2C2C ;
+    color: white; 
+}
