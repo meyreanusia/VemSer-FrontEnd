@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    display:contents;
+    position: absolute;  
+    margin: auto;  
+    height: auto;
+    width: 1280px auto;
+   
+}
+
+.img-fundo{
+    background-image:url(./img/milad-fakurian-HE1_K4_-QT8-unsplash\ 1.png);
+    background-repeat: repeat;
+    background-size:auto;
+    height: 150px;
+
+}
+
+.foto-perfil > img{
+    margin-top: -90px;
+    border-radius: 100%;
+    border: 7px solid white; 
+}
+
+.foto-perfil{
+    display: flex;
+   justify-content: center;
+}
+
+.container > h1{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.container > p{
+    text-align: center;
+}
+
+.rede-social{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: auto;
+    height: 50px;
+}
+
+.rede-social > div{
+    background-color: blue;
+    width: 35px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.rede-social > .youtube{
+    background-color:#FF2532;
+}
+.rede-social > .twitter{
+    background-color:#2494FB;
+}
+.rede-social > .linkedin{
+    background-color:#0A66C2;
+}
+main{
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    flex-flow:10px ;
+    gap: 20px;
+}
+main > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px rgb(244, 239, 239) solid;
+    margin: 0 auto;
+    width: 400px ;
+    height: 67px;
+    border-radius: 70px; 
+   
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+.black > a{
+    color: aliceblue;
+}
+main > div > a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+@media only screen and (max-device-width: 800px) {
+    
+
+main > div {
+    width: 200px ;
+}
+
+
+
+}
+
+
