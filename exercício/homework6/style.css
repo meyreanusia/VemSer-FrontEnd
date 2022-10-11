@@ -1,0 +1,193 @@
+@media ( max-width: 800px ) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        height: 50px;
+        background-color: #171B29;
+        color: white;
+    }
+    
+    header > img {
+    height: 14px;
+    width: 20px;
+
+    }
+
+
+    .sessao1 > div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        height: 420;
+        color: white;
+        background-color: #171B29;
+        
+    }
+    .sessao1 > div > p, h1{
+        margin-left:20px;
+        margin-right:20px;
+
+     }
+
+    .sessao1 > img {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .botao-sessao1{
+        display: flex;
+        margin: 20px 10px;
+        background-color: green;
+        width: 30% ;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 70px;
+        margin-left: 20px;
+        
+    }
+
+
+    .sessao2{
+        display: flex;
+        justify-content: center;
+        background-color: #1e212b;
+    }
+    
+    .sessao2 > div{  
+        margin: 20px;
+        border-radius: 30px;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: ;
+        width: 335px;
+        height: 420px;
+        background-color: #171B29;
+
+    }
+    
+    .sessao2 > div > p, a, h2{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 2px;
+    }
+  
+        
+
+
+    
+    .sessao3 > div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 20px;
+        width: 335px;
+        height: 420px;
+        background-color: #171B29;
+        color: white;
+        border-radius: 30px;
+        
+    }
+
+    .sessao3 > div > p, a{
+       margin: 10px;
+    }
+
+    .img-sessao3 > div >img{
+       
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #171B29;
+        color: white;
+        border-top-left-radius: 100px;
+       
+    }
+
+    .img-sessao3 > div{
+       
+       
+       
+    }
+
+
+    .sessao4 > div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 400px;
+        border: solid 2px gainsboro;
+        border-top-right-radius: 100px;
+        
+        
+    }
+
+    .sessao4 > div > p, h2{
+        margin: 10px;
+     }
+
+
+   
+
+    .sessao5 > div{
+       
+        background-color:#171B29 ;
+        
+        height: 300pz;
+    }
+
+    .sessao6 > div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; 
+       
+        height: 420px;
+        background-color: #171B29;
+        color: white;
+        border-bottom-left-radius: 10%;
+       
+    
+    }
+
+    .sessao6 > div > p, a{
+       margin: 10px;
+    }
+
+
+    .ultima-sessao{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        background-color: #171B29;
+        color: whitesmoke;
+    }
+    .ultima-sessao > div > ul >img{
+        
+        justify-content: space-around;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        gap: 50px;
+        height: 20px;
+    
+    }
+}
+
+
+
