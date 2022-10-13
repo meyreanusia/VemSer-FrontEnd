@@ -1,0 +1,57 @@
+*{ /*pegou todo documento html e tirou a margem*/
+    margin:0;
+  }
+  h1, h2 { /*Podemos agrupar elementos com a mesma formataçao colocando virgula + elemento */
+    color: blue; /*cor da fonte*/
+    font-size: 60px; /*tamanho da fonte*/
+    background: gray; /*fundo do h1*/
+  }
+  
+  /*Seletors - conecta um elemento html com o css
+  */
+  #container{
+    width: 250px; /*Largura*/
+    
+  }
+  .m-40{
+    margin: 40px; /*margem da caixa*/
+    
+  }
+
+  h1 {
+    border: 1px solid red; /* borda da caixa*/
+    margin: 200px; /*espaçamento por fora da caixa */
+    padding: 60px; /* preenchimento interno*/
+  }
+
+  h1 {
+    border: 1px solid red; /* borda da caixa*/
+    margin: 200px; /*espaçamento por fora da caixa */
+    padding: 60px; /* preenchimento interno*/
+  }
+  
+  /*Especifidade - É um calculo matemático, onde, cada tipo de seletor e origem do estilo, possuem valores a serem considerados
+  
+  0 = universal selector, combinator e gation pseudo class(:()*)
+  1 = Element type selector e pseudo-elements (::before, ::after)
+  10 = Classes e attribute selector ([type="radio"]) .
+  100 = ID selector #
+  1000 = Inline
+  */
+   /*
+  !important
+  
+  São raras as ocasiões nas quais se devem usar um iportant, pois é em geral uma má pratica, visto que quebra o fluxo natural da cascata e pode acabar te atrapalhando caso você a deixe em algum lugar no seu código.*/
+  /* 
+  ## At-rules - esta relacionado ao comportamento do CSS. 
+  Começa com o sinal de @ seguido do identificaor e valor.
+  
+  ## Exemplos comuns
+  @import incluir um css externo (@import url("http://local.com/styles.css"))
+  @media regramas adicionais para dispositivos
+  @font-face fontes externas
+  @keyframes animation
+  
+  */
+  
+  
